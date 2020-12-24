@@ -55,12 +55,17 @@ export const TableContainer = styled.section`
     border-spacing: 0 8px;
 
     th {
-      color: #969cb3;
-      font-weight: normal;
-      padding: 20px 32px;
+
       text-align: left;
-      font-size: 16px;
-      line-height: 24px;
+      padding: 20px 32px;
+
+      a {
+        color: #969cb3;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+      }
     }
 
     td {

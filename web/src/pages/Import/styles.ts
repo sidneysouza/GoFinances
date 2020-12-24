@@ -18,7 +18,7 @@ export const Title = styled.h1`
 
 export const ImportFileContainer = styled.section`
   background: #fff;
-  margin-top: 40px;
+  margin-top: 20px;
   border-radius: 5px;
   padding: 64px;
 `;
@@ -53,4 +53,14 @@ export const Footer = styled.section`
       background: ${shade(0.2, '#ff872c')};
     }
   }
+`;
+
+export const Error = styled.span`
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e67272;
+  color: #fff;
+  font-size: 12px;
 `;
